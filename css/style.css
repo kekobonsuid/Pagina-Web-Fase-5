@@ -1,0 +1,345 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+h1{ font-size: 3.5em;
+margin: none;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 2em;}
+li{ font-size: 2em;}
+ul{ list-style: none;}
+
+
+body{
+    
+    font-family: 'Bad Script', cursive;
+    background-color: rgb(40, 140, 165);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+input {
+font-size: 1em;
+font-weight: bold;
+border-radius: 3.5px;
+box-shadow: 2px 2px 10px rgba(0,0,0, 0.5a);
+background-color: aqua;
+}
+input:hover{
+    background-color: rgb(17, 228, 193);
+}
+.contenedor{
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+header{
+    text-align: center;
+    padding-top: 22PX;
+    background-color: aliceblue;
+}
+header div{
+    color: rgb(0, 0, 0);
+}
+header nav{
+    background-color: rgb(34, 202, 224);
+    color: aliceblue;
+}
+header ul li{
+    list-style: none;
+    display: inline-block;
+    list-style: none;
+    
+}
+header ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 0 25px;
+}
+a:hover{
+    background-color: rgb(115, 208, 252);
+    border-radius: 20px;
+}
+
+ #introduccion{
+    padding-top: 50px;
+    padding-bottom: 50px;
+ }
+ #introduccion .contenedor{
+    max-width: 1400px;
+ }
+
+#introduccion .contenedor2{
+background-color: rgb(19, 116, 122);
+color: aliceblue;
+padding-top: 25px;
+border-radius: 15px;
+flex-wrap:nowrap;
+}
+section p{
+    color: black;
+    text-align: center;
+    margin: auto;
+    padding-left: 31px;
+    padding-bottom: 30px;
+    width: 70%;
+}
+.imagenes{
+    width: 30%;
+    padding-left: 15px;
+    margin: auto;
+}
+section img{
+    float: right;
+    width: max-content;
+    margin: auto;
+}
+
+#tienda{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+    text-align: center;
+}
+#tienda .contenedor{
+    background-color: aliceblue;
+    width: 100%;
+    color: black;
+}
+.contenedor2{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items:center;
+    text-align: center;
+}
+#tienda img{
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+.productos{
+    display: flex;
+    background-color: rgb(11, 34, 31);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 20%;
+    align-items:center;
+    flex-direction: column;
+}
+
+#tienda .contenedor2{
+    width:100%;
+    background-color: rgb(25, 61, 56);
+   
+}
+#tienda h3{
+    background-color: rgb(17, 104, 104);
+    border-radius: 15px;
+}
+#tienda p{
+    padding-top: 12px;
+    padding-right: 12px;
+    border-radius: 35px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: rgb(190, 200, 209);
+    margin: auto;
+    
+}
+
+button{
+    background-color: rgb(207, 136, 43);
+    border-radius: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(31, 172, 31);
+}
+button:hover{
+    background-color: rgb(218, 173, 51);
+}
+#Quienes{
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+#Quienes .contenedor{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 80%;
+    background-color: rgb(233, 233, 233);
+    align-items: center;
+    border-radius: 46px;
+}
+#Preguntas{
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+#Preguntas .contenedor{
+    padding-top: 15px;
+    padding-bottom: 60px;
+    width: 1000px;
+    background-color: rgb(36, 36, 36);
+    align-items: center;
+    border-radius: 46px;
+    color: aliceblue;
+}
+#carrito{
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+#carrito .contenedor{
+    padding-top: 15px;
+    padding-bottom: 60px;
+    width: 1050px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 46px;
+    color: rgb(26, 26, 26);
+}
+#carrito img{
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+#carrito .vens{
+    background-color: rgb(54, 54, 54);
+    color: aliceblue;
+    border-radius: 25px;
+    padding-bottom: 15px;
+}
+#carrito .vens p{
+    color: aliceblue;
+}
+
+#ingreso{
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+#ingreso .contenedor{
+    
+    padding-top: 15px;
+    padding-bottom: 60px;
+    width: 70%;
+    background-color: rgb(19, 116, 122);
+    border-radius: 46px;
+    color: rgb(26, 26, 26);
+    color: aliceblue;
+}
+footer{
+    height: 100px;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: auto;
+}
+@media(max-width:480px){
+h1{ font-size: 3em;
+margin: auto;}
+h2{ font-size: 2.em;}
+h3{ font-size: 1.5em;}
+p{ font-size: 1em;}
+li{ font-size: 1.3em;}
+ul{ list-style: none;}
+
+header ul li{
+    list-style: none;
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+    margin-right: 25px;
+    
+}
+.imagenes{
+    display: none;
+}
+
+.productos{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin: auto;
+    flex-wrap:nowrap;
+    width: 100%;
+}
+#Quienes .imagen{
+    display:none;    
+}
+#Quienes .contenedor{
+    width: 100%;
+    border-radius: 0%;
+}
+#Preguntas .contenedor{
+    width: 100%;
+    border-radius: 0%;
+}
+#carrito .contenedor{
+    width: 100%;
+    border-radius: 0%;
+}
+#carrito .contenedor2{
+    width: 100%;
+    border-radius: 0%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+#ingreso .contenedor{
+    width: 100%;
+    border-radius: 0;
+}
+}
+
+@media(max-width:750px){
+    h1{ font-size: 3.2em;}
+        h2{ font-size: 2.2em;}
+        h3{ font-size: 1.7em;}
+        p{ font-size: 1.7em;}
+        li{ font-size: 1.7em;}
+        ul{ list-style: none;}
+}
+
+@media(max-width:1120px){
+
+    .imagenes{
+        display: none;
+    }
+    
+    .productos{
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+        margin: auto;
+        flex-wrap:nowrap;
+        width: 100%;
+    }
+    #Quienes .imagen{
+        display:none;    
+    }
+    #Quienes .contenedor{
+        width: 100%;
+        border-radius: 0%;
+    }
+    #Preguntas .contenedor{
+        width: 100%;
+        border-radius: 0%;
+    }
+    #carrito .contenedor{
+        width: 100%;
+        border-radius: 0%;
+    }
+    #carrito .contenedor2{
+        width: 100%;
+        border-radius: 0%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+
